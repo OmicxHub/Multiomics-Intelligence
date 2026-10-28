@@ -1,0 +1,6 @@
+stage_clean,N,pct_of_total,n_deceased,pct_deceased,mean_age,mean_os_months
+Other/Unknown,25,2.3,11,44,58.4,62.2
+Stage I,183,16.7,16,8.7,59.9,48.8
+Stage II,621,56.6,66,10.6,58.2,39.5
+Stage III,249,22.7,44,17.7,58.6,35.3
+Stage IV,20,1.8,15,75,59,34.3

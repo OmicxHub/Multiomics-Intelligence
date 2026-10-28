@@ -1,0 +1,14 @@
+Metric,TCGA_BRCA,TCGA_LUAD,TCGA_LAML
+Clinical patients (rows),1098,585,200
+Clinical columns,31,33,37
+Sample records,1102,571,200
+Sample columns,10,10,19
+Total mutations (MAF rows),89012,190868,10841
+MAF columns,140,140,113
+Unique patients in MAF,965,557,199
+AGE available,1082 (98.5%),491 (83.9%),0 (0.0%)
+AJCC Stage available,1086 (98.9%),514 (87.9%),NOT IN FILE
+OS_STATUS,945 living / 152 deceased / 1 NA,334 living / 188 deceased / 63 NA,67 living / 133 deceased / 0 NA
+OS_MONTHS available,1097 (99.9%),513 (87.7%),186 (93.0%)
+DFS_STATUS available,942 (85.8%),295 (50.4%),0 (0.0%)
+Top mutated gene,PIK3CA (374 muts),TTN (884 muts),DNMT3A (77 muts)

@@ -1,0 +1,6 @@
+Category,N,Pct_of_clinical,Notes
+Total clinical patients,1098,100,All patients with clinical metadata
+Total genomic patients (with >=1 coding mutation),964,87.8,12-char patient_id extraction from MAF barcode
+Matched — in both datasets,964,87.8,Enter the merged analysis dataset
+Clinical only (not sequenced),134,12.2,Excluded: insufficient tumour material or no WES
+Genomic only (no clinical record),0,0,Should be 0 — TCGA requires clinical enrolment

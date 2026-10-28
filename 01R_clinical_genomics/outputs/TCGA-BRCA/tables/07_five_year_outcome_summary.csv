@@ -1,0 +1,5 @@
+outcome_label,five_year_survival,n,pct,in_ML
+Confirmed died within 5yr,0,87,9,TRUE
+Confirmed survived (alive >=60m),1,173,17.9,TRUE
+Confirmed survived (died after 5yr),1,45,4.7,TRUE
+CENSORED — excluded from ML,NA,659,68.4,FALSE
