@@ -1,0 +1,10 @@
+variable,with_methylation,without_methylation,test,p_value,difference
+Patients,671,293,"",,""
+Age at diagnosis (years),58.0 [48.0-67.0],59.0 [50.0-69.0],Wilcoxon (median [IQR]),0.157,similar
+Pathological stage,Other 1%; Stage I 17%; Stage II 56%; Stage III 24%; Stage IV 1%; Stage X 1%,Other 2%; Stage I 17%; Stage II 60%; Stage III 16%; Stage IV 3%; Stage X 2%,"Chi-square, simulated p (distribution)",0.0068,DIFFERS (p<0.05)
+Died during follow-up,12.7% (85/671),16.0% (47/293),Chi-square (% yes),0.194,similar
+Follow-up time (months),25.9 [15.6-54.0],26.6 [12.5-54.0],Wilcoxon (median [IQR]),0.113,similar
+Tumour mutation burden (TMB),1.00 [0.70-1.83],1.30 [0.87-2.23],Wilcoxon (median [IQR]),4.7e-06,DIFFERS (p<0.05)
+TP53 mutated,33.1% (222/671),37.2% (109/293),Chi-square (% yes),0.244,similar
+PIK3CA mutated,33.4% (224/671),35.5% (104/293),Chi-square (% yes),0.574,similar
+PAM50 subtype,Basal 17%; Her2 6%; LumA 52%; LumB 19%; Normal 4%; Unknown 1%,Basal 18%; Her2 12%; LumA 47%; LumB 20%; Normal 2%; Unknown 1%,"Chi-square, simulated p (distribution)",0.009,DIFFERS (p<0.05)

@@ -1,0 +1,6 @@
+cluster,patients,deaths,five_year_survival_pct,ci_low,ci_high
+MC1,105,14,83.1,73.1,94.6
+MC2,106,20,79.9,69.8,91.5
+MC3,257,19,89.2,83.3,95.5
+MC4,93,18,60.9,45.5,81.4
+MC5,109,14,86,77.1,96

@@ -1,0 +1,64 @@
+feature,block,type,set_A_clinical_genomic,set_BC_methylation,set_ABC_combined
+age,A: Clinical + genomic,continuous (scaled),TRUE,FALSE,TRUE
+stage_numeric,A: Clinical + genomic,continuous (scaled),TRUE,FALSE,TRUE
+tmb_nonsynonymous,A: Clinical + genomic,continuous (scaled),TRUE,FALSE,TRUE
+n_truncating,A: Clinical + genomic,continuous (scaled),TRUE,FALSE,TRUE
+n_nonsense,A: Clinical + genomic,continuous (scaled),TRUE,FALSE,TRUE
+n_frameshift_del,A: Clinical + genomic,continuous (scaled),TRUE,FALSE,TRUE
+n_frameshift_ins,A: Clinical + genomic,continuous (scaled),TRUE,FALSE,TRUE
+n_splice_site,A: Clinical + genomic,continuous (scaled),TRUE,FALSE,TRUE
+TP53,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+PIK3CA,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+TTN,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+CDH1,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+GATA3,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+MUC16,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+KMT2C,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+MAP3K1,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+HMCN1,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+FLG,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+RYR2,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+SYNE1,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+PTEN,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+USH2A,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+NCOR1,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+ZFHX4,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+SPTA1,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+DMD,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+MUC17,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+NEB,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+diag_infiltrating_lobular_carcinoma,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+diag_infiltrating_ductal_carcinoma,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+diag_other_specify,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+diag_mixed_histology_please_specify_,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+diag_mucinous_carcinoma,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+diag_medullary_carcinoma,A: Clinical + genomic,binary (0/1),TRUE,FALSE,TRUE
+meth_global_all,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_global_island,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_global_shore,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_global_shelf,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_global_opensea,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_global_promoter,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_global_genebody,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_global_intergenic,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_APC,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_BRCA1,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_CDH1,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_ESR1,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_FOXA1,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_GSTP1,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_MLH1,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_PGR,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_RARB,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_prom_RASSF1,B: Methylation summary,continuous (scaled),FALSE,TRUE,TRUE
+meth_BRCA1_hypermethylated,B: Methylation summary,binary (0/1),FALSE,TRUE,TRUE
+methPC1,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC2,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC3,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC4,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC5,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC6,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC7,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC8,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC9,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE
+methPC10,C: Methylation PCs,continuous (scaled),FALSE,TRUE,TRUE

@@ -1,0 +1,16 @@
+Model,Feature_set,cv_AUC_mean,cv_AUC_sd,failed_fits
+Logistic Regression,A: Clinical + genomic,0.594,0.096,0
+Elastic Net,A: Clinical + genomic,0.729,0.089,0
+Random Forest,A: Clinical + genomic,0.65,0.113,0
+XGBoost,A: Clinical + genomic,0.736,0.104,0
+SVM,A: Clinical + genomic,0.633,0.124,0
+Logistic Regression,B+C: Methylation,0.524,0.099,0
+Elastic Net,B+C: Methylation,0.633,0.098,0
+Random Forest,B+C: Methylation,0.559,0.13,0
+XGBoost,B+C: Methylation,0.626,0.102,0
+SVM,B+C: Methylation,0.537,0.122,0
+Logistic Regression,A+B+C: Combined,0.544,0.086,0
+Elastic Net,A+B+C: Combined,0.739,0.09,0
+Random Forest,A+B+C: Combined,0.605,0.1,0
+XGBoost,A+B+C: Combined,0.733,0.091,0
+SVM,A+B+C: Combined,0.56,0.142,0

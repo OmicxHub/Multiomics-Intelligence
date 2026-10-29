@@ -1,0 +1,5 @@
+status,patients,pct_of_month1
+Matched: methylation available,671,69.6
+Removed at methylation QC (script 03),1,0.1
+Methylation only from non-primary-tumour samples,7,0.7
+No 450K methylation data on the GDC,285,29.6

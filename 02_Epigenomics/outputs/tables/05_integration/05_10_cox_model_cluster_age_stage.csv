@@ -1,0 +1,7 @@
+term,hazard_ratio,ci_low,ci_high,p_value
+cluster (vs MC3): MC1,2,0.96,4.18,0.0651
+cluster (vs MC3): MC2,1.72,0.89,3.33,0.108
+cluster (vs MC3): MC4,3.19,1.65,6.17,0.00057
+cluster (vs MC3): MC5,1.21,0.59,2.5,0.606
+AGE,1.04,1.02,1.06,1.04e-05
+stage_groupIII-IV,2.83,1.79,4.48,9.24e-06

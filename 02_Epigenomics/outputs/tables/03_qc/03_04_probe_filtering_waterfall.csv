@@ -1,0 +1,7 @@
+step,n_remaining,n_removed,pct_remaining
+0. All probes on the array,486427,0,100
+1. CpG probes only (drop ch / rs / control),482421,4006,99.2
+2. Mapped to hg38,482391,30,99.2
+3. Autosomes only (drop chrX / chrY / chrM),470827,11564,96.8
+4. Not quality-masked (SNP / cross-reactive),442224,28603,90.9
+5. Missing in <= 10% of samples,380811,61413,78.3

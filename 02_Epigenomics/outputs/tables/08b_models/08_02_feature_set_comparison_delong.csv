@@ -1,0 +1,11 @@
+Model,comparison,AUC_A,AUC_other,delta_AUC,p_value
+Logistic Regression,A+B+C: Combined vs A,0.624,0.621,-0.004,0.969
+Logistic Regression,B+C: Methylation vs A,0.624,0.673,0.048,0.625
+Elastic Net,A+B+C: Combined vs A,0.742,0.792,0.05,0.259
+Elastic Net,B+C: Methylation vs A,0.742,0.657,-0.085,0.366
+Random Forest,A+B+C: Combined vs A,0.679,0.665,-0.014,0.877
+Random Forest,B+C: Methylation vs A,0.679,0.642,-0.037,0.72
+XGBoost,A+B+C: Combined vs A,0.684,0.657,-0.027,0.693
+XGBoost,B+C: Methylation vs A,0.684,0.642,-0.042,0.72
+SVM,A+B+C: Combined vs A,0.731,0.682,-0.048,0.498
+SVM,B+C: Methylation vs A,0.731,0.51,-0.221,0.0337

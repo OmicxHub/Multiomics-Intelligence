@@ -1,0 +1,10 @@
+block,importance,method,pct
+A: Clinical + genomic,20.5900882555909,Random Forest (accuracy decrease),53.3
+C: Methylation PCs,13.1142066100694,Random Forest (accuracy decrease),33.9
+B: Methylation summary,4.93811319839843,Random Forest (accuracy decrease),12.8
+A: Clinical + genomic,0.389110766157494,XGBoost (gain),38.9
+C: Methylation PCs,0.523653082037959,XGBoost (gain),52.4
+B: Methylation summary,0.0872361518045481,XGBoost (gain),8.7
+A: Clinical + genomic,3.79124496818491,Elastic Net (|coefficient|),81.1
+B: Methylation summary,0.143209024649614,Elastic Net (|coefficient|),3.1
+C: Methylation PCs,0.737546265718119,Elastic Net (|coefficient|),15.8
